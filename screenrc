@@ -1,0 +1,11 @@
+vbell on
+activity 'Activity on window %n'
+autodetach on
+defscrollback 2000
+startup_message off
+term xterm
+attrcolor b ".I"
+defbce "on"
+caption always "%{Yb}  %D %02d.%02m %0c %{wk} %-w%{kw}[%n %t]%{-}%+w"
+
+altscreen on
